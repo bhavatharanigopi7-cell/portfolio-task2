@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- HEADER -->
+    <header>
+        <h1>Rabbit</h1>
+        <p>Web Development Beginner</p>
+    </header>
+
+    <!-- HERO SECTION -->
+    <section class="hero">
+        <img src="profile.jpg" alt="My Photo">
+        <h2>Hello, I'm Rabbit 👋</h2>
+        <p>
+            I am a student learning web development.  
+            I enjoy creating simple and clean websites using HTML and CSS.
+        </p>
+    </section>
+
+    <!-- ABOUT -->
+    <section class="about">
+        <h2>About Me</h2>
+        <p>
+            I am passionate about web technologies and currently improving my skills
+            in front-end development. My goal is to become a full-stack developer.
+        </p>
+    </section>
+
+    <!-- SKILLS -->
+    <section class="skills">
+        <h2>My Skills</h2>
+        <ul>
+            <li>HTML5</li>
+            <li>CSS3</li>
+            <li>Basic JavaScript</li>
+            <li>Git & GitHub</li>
+        </ul>
+    </section>
+
+    <!-- PROJECTS -->
+    <section class="projects">
+        <h2>Projects</h2>
+
+        <div class="project-card">
+            <h3>Landing Page</h3>
+            <p>A responsive landing page using HTML and CSS.</p>
+        </div>
+
+        <div class="project-card">
+            <h3>Calculator</h3>
+            <p>A simple calculator using HTML, CSS and JavaScript.</p>
+        </div>
+
+        <div class="project-card">
+            <h3>Portfolio Website</h3>
+            <p>This personal portfolio website.</p>
+        </div>
+    </section>
+
+    <!-- RESUME -->
+    <section class="resume">
+        <h2>Resume</h2>
+        <p>You can download my resume below:</p>
+        <a href="#" class="btn">Download Resume</a>
+    </section>
+
+    <!-- CONTACT -->
+    <section class="contact">
+        <h2>Contact Me</h2>
+        <p>Email: rabbit@example.com</p>
+        <p>Phone: +91 98765 43210</p>
+        <p>GitHub: github.com/rabbit</p>
+    </section>
+
+    <!-- FOOTER -->
+    <footer>
+        <p>© 2026 Rabbit | All Rights Reserved</p>
+    </footer>
+
+</body>
+</html>
